@@ -9,7 +9,7 @@ pip install -r requirements.txt
 After installing spacy, please run ```python -m spacy download en_core_web_sm``` to download the ```en_core_web_sm``` module.
 
 ## Data extraction and automatic annotation 
-Please obtain the Cornell movie dialogs corpus [here](https://www.kaggle.com/datasets/rajathmc/cornell-moviedialog-corpus). After downloading the original corpus, please put *movie_lines.txt* in whatever directory you like. 
+Please obtain the Cornell movie dialogs corpus [here](https://www.kaggle.com/datasets/rajathmc/cornell-moviedialog-corpus) under the CC0 license. After downloading the original corpus, please put *movie_lines.txt* in whatever directory you like. 
 
 
 <img src="https://github.com/repo4nlp/data/blob/main/data.png" width="250" height="200">
