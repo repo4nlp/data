@@ -9,9 +9,10 @@ pip install -r requirements.txt
 After installing spacy, please run ```python -m spacy download en_core_web_sm``` to download the ```en_core_web_sm``` module.
 
 ## Data extraction and automatic annotation 
-Obtain the Cornell movie dialogs corpus [here](https://www.kaggle.com/datasets/rajathmc/cornell-moviedialog-corpus). After downloading the original corpus, please put *movie_lines.txt* in whatever directory you like. 
+Please obtain the Cornell movie dialogs corpus [here](https://www.kaggle.com/datasets/rajathmc/cornell-moviedialog-corpus). After downloading the original corpus, please put *movie_lines.txt* in whatever directory you like. 
 
-![image](https://github.com/repo4nlp/data/blob/main/data.png)
+
+<img src="https://github.com/repo4nlp/data/blob/main/data.png" width="250" height="200">
 
 Then, please obtain a positive word list and negative word list from the [Mining and summarizing customer reviews (Hu and Liu, KDD-2004)](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html). There are supposed to be 4783 positive words and 2006 negative words in each list, and make sure that each line in each list contains one word.
 
